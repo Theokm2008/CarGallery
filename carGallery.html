@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+        <title>Visiting the Corners</title>
+    </head>
+    <body>
+        <a-scene>
+
+            <!-- Set the background -->
+            <a-sky color="lightblue"></a-sky>   
+
+
+            <!-- Floor 1 --> 
+            <a-plane position="0 0 0" height="16" 
+                    width="10" rotation="-90 0 0"
+                    color="black">
+            </a-plane>
+
+
+                <!-- Floor 2 --> 
+                    <a-plane position="0 0 -16" height="16" 
+                            width="10" rotation="-90 0 0"
+                            color="black">
+                    </a-plane>
+
+                
+                <!-- Floor 3 --> 
+                <a-plane position="-13 0 -19" height="16" 
+                        width="10" rotation="-90 -90 0"
+                        color="black">
+                </a-plane>
+
+                
+                <!-- Floor 4 --> 
+                <a-plane position="13 0 -19" height="16" 
+                        width="10" rotation="-90 -90 0"
+                        color="black">
+                </a-plane>
+
+                <!-- Floor 5 --> 
+                <a-plane position="-15.5 0 -32" height="16" 
+                        width="10" rotation="-90 0 0"
+                        color="black">
+                </a-plane> 
+
+                <!-- Floor 6 --> 
+                <a-plane position="15.5 0 -32" height="16" 
+                        width="10" rotation="-90 0 0"
+                        color="black">
+                </a-plane>
+
+                <!-- Floor 7 --> 
+                <a-plane position="0 0 -32" height="16" 
+                        width="10" rotation="-90 0 0"
+                        color="black">
+                </a-plane>
+
+                
+
+
+
+
+
+                
+            <!-- Starting walls Walls -->
+            <!-- white Right Wall -->
+            <a-box position="5 2 0" height="4" width=".5"
+                    color="white" depth="16">
+            </a-box>
+            <!-- white Left Wall -->
+            <a-box position="-5 2 0" height="4" width=".5"
+                    color="white" depth="16">
+            </a-box>
+            <!-- white Back Wall -->
+            <a-box position="0 2 8" height="4" width="10"
+                    color="white" depth=".5">
+            </a-box>
+
+
+
+                
+                
+                    <!-- Walls -->
+                    <!-- far Right Wall -->
+                    <a-box position="20.7 2 -27" height="4" width=".5"
+                            color="red" depth="16" scale="1 1 1.64">
+                    </a-box>
+
+                <!-- far Right Wall 2 -->
+                    <a-box position="10.2 2 -32.1" height="4" width=".5"
+                            color="red" depth="16" scale="1 1 1.02">
+                    </a-box>
+                
+                    <!-- far Left Wall -->
+                    <a-box position="-20.7 2 -27" height="4" width=".5"
+                            color="red" depth="16" scale="1 1 1.64">
+                    </a-box>
+
+                <!-- far Left Wall 2 -->
+                    <a-box position="-10.2 2 -32.1" height="4" width=".5"
+                            color="red" depth="16" scale="1 1 1.02">
+                    </a-box>
+                
+                <!-- Small middle starting Wall -->
+                    <a-box position="-0.056 2 -7.7" height="4" width=".5"
+                            color="red" depth="16" rotation="0 90 0" scale="1 1 0.4">
+                    </a-box>
+                
+                    <!-- middle Back Wall -->
+                    <a-box position="0 2 -40" height="4" width="10"
+                            color="orange" depth=".5">
+                    </a-box>
+
+                <!-- right Back Wall -->
+                    <a-box position="15.5 2 -40" height="4" width="10"
+                            color="orange" depth=".5">
+                    </a-box>
+
+                <!-- left Back Wall -->
+                    <a-box position="-15.5 2 -40" height="4" width="10"
+                            color="orange" depth=".5">
+                    </a-box>
+
+
+
+                        
+                
+        </a-scene>
+    </body>
+</html>
